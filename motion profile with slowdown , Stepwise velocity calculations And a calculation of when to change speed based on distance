@@ -1,7 +1,7 @@
 def moving_profile(max_velocety,target_distance,acceleration) 
 drive_base.stop 
 drive_base.reset()
-max_v=abs(max_velocety)
+max_v=abs(max_velocety) 77
 accel=abs(acceleration)
 target_d(target_distance)
 left_motor.reset_angle(0)
